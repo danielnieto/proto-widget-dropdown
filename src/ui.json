@@ -1,0 +1,154 @@
+{
+  "previewImage": {
+    "value": "assets/dam0wfn0365uw7kn8jdqvsd4vlo0lt8o.jpg"
+  },
+  "highResolution": false,
+  "migrated": true,
+  "original": {
+    "name": "Default",
+    "size": {
+      "high": {
+        "width": 1440,
+        "height": 2160,
+        "resolution": 300
+      },
+      "preview": {
+        "height": 800,
+        "width": 533
+      }
+    }
+  },
+  "supportedSizes": [],
+  "text": [],
+  "graphic": [
+    {
+      "id": 40,
+      "name": "Shirt Color",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 0,
+      "y": 0,
+      "width": 1435,
+      "height": 2160,
+      "visible": true,
+      "styles": {
+        "blendOptions": {
+          "mode": "passThrough"
+        },
+        "layerEffects": {
+          "scale": 416.666666666667,
+          "solidFill": {
+            "enabled": true,
+            "present": true,
+            "showInDialog": true,
+            "mode": "normal",
+            "color": {
+              "red": 255,
+              "green": 255,
+              "blue": 255
+            },
+            "opacity": 100
+          }
+        }
+      },
+      "color": "#FFFFFF",
+      "image": null,
+      "contents": null,
+      "font": null,
+      "layers": [],
+      "smartFilters": null,
+      "allowColorpicker": true,
+      "excludable": true
+    }
+  ],
+  "background": [
+    {
+      "id": 35,
+      "name": "Background",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "visible": true,
+      "styles": {
+        "blendOptions": {
+          "mode": "passThrough"
+        }
+      },
+      "color": null,
+      "image": null,
+      "contents": null,
+      "font": null,
+      "layers": [],
+      "smartFilters": null,
+      "excludable": true
+    }
+  ],
+  "backgroundColor": null,
+  "customGraphic": [
+    {
+      "id": 43,
+      "name": "nice.custom_graphic.Upload_Design",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 371,
+      "y": 1034,
+      "width": 750,
+      "height": 1200,
+      "visible": true,
+      "styles": {
+        "blendOptions": {
+          "mode": "passThrough"
+        }
+      },
+      "color": null,
+      "image": null,
+      "contents": null,
+      "font": null,
+      "layers": [
+        {
+          "id": 29,
+          "name": "placeit.replace.userimage1",
+          "type": "Graphic",
+          "opacity": 94.9019607843137,
+          "fill": 100,
+          "x": 371,
+          "y": 1034,
+          "width": 614,
+          "height": 564,
+          "visible": true,
+          "styles": {
+            "blendOptions": {
+              "opacity": 95
+            }
+          },
+          "color": null,
+          "image": "assets/kttzfm5s9gc86cr49gyhqj0ywzpzf2y7.png",
+          "contents": null,
+          "font": null,
+          "layers": [],
+          "smartFilters": null
+        }
+      ],
+      "smartFilters": null,
+      "viewport": null,
+      "userAgent": null
+    }
+  ],
+  "uploadRequired": true,
+  "effect": [
+    {
+      "visible": true,
+      "name": "Effects",
+      "excludable": true,
+      "image": null,
+      "layers": []
+    }
+  ],
+  "id": "4e7cc3f37c38d8cffca71cb68e11c9b5",
+  "version": "4.0",
+  "forceReload": false,
+  "category": null
+}
