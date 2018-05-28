@@ -7,7 +7,8 @@ if (typeof UI === "undefined") {
 Class(UI, "Dropdown")
     .inherits(Widget)
     .includes(BubblingSupport)({
-    HTML: '<div><label></label><select class="select form-control"></select><div>',
+    HTML:
+        '<div><label></label><select class="select form-control"></select><div>',
     ELEMENT_CLASS: "ui-select",
     prototype: {
         init: function init(config) {
@@ -30,21 +31,31 @@ Class(UI, "Dropdown")
                     };
                 }
 
-                dropdown.$select.append('<option value="' + item.value + '">' + item.text + "</option>");
+                dropdown.$select.append(
+                    '<option value="' +
+                        item.value +
+                        '">' +
+                        item.text +
+                        "</option>"
+                );
             });
 
             this.$select.val(this.record[config.attributeName]);
 
-            this.$select.bind("change", dropdown._changeEventHandler.bind(dropdown));
+            this.$select.bind(
+                "change",
+                dropdown._changeEventHandler.bind(dropdown)
+            );
 
             return this;
         },
-        _changeEventHandler: function(event) {
+        _changeEventHandler: function _changeEventHandler(event) {
             var dropdown = this;
 
             var value = dropdown.$select.val();
 
-            dropdown.record[dropdown.attributeName] = value !== "" ? value : null;
+            dropdown.record[dropdown.attributeName] =
+                value !== "" ? value : null;
             console.log(JSON.stringify(dropdown.record));
         }
     }
